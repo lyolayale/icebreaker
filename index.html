@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./index.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+
+  </head>
+
+  <body class="bg-slate-200 bg-cover bg-no-repeat bg-[url('./cute.webp')] w-[100%] h-screen">
+    <h1 class="text-center text-[8rem] mt-[10%] underline h-[5rem]  text-slate-700  p-3 w-auto"
+      style="text-shadow: 0 10px 10px; letter-spacing: 10px; -webkit-text-stroke: 2px #000;"></h1>
+    <div class="buttons mt-[25%] ">
+
+      <button
+        class="bg-blue-300 p-3 w-auto rounded-lg flex justify-center items-center mx-auto text-5xl shadow-lg text-white h-[5rem]"
+        onclick=getRandomName(names)>Random Name</button>
+      <button
+        class="bg-slate-300 p-3 w-[18%] rounded-lg flex justify-center items-center mx-auto mt-5 text-5xl shadow-lg text-white h-[5rem]"
+        onclick=location.reload()>Reset</button>
+    </div>
+
+
+  </body>
+
+</html>
